@@ -1,0 +1,25 @@
+{
+    "name": "player/sidemenu",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Player\\Sidemenu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hepin savaliya",
+            "email": "hepinsavaliya2608@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Player\\Sidemenu\\Providers\\SideMenuServiceProvider"
+        ]
+    }
+}
+}
