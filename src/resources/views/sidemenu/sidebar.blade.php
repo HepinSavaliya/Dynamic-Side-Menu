@@ -6,7 +6,7 @@
             </a>
             @if (isset($menu['children']) && count($menu['children']) > 0)
                 <ul>
-                    @include('components.sidebar', ['menuTree' => $menu['children']])
+                    @include('sidemenu.sidebar', ['menuTree' => $menu['children']])
                 </ul>
             @endif
         </li>

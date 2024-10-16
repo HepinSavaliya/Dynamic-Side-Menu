@@ -1,7 +1,6 @@
 <?php
 
-namespace App\Models;
-
+namespace Player\Sidemenu\Models;
 use Player\Sidemenu\Models\Menu as ModelsMenu;
 
 class Menu extends ModelsMenu

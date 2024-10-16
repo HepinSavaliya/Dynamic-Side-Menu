@@ -15,10 +15,7 @@ class PublishSideMenu extends Command
 
     public function handle()
     {
-        // Publish config, migrations, seeder, views, and model
-        $this->info('Publishing config...');
-        Artisan::call('vendor:publish', ['--tag' => 'config']);
-        $this->info(Artisan::output());
+        // Publish migrations, seeder, views, and model
 
         $this->info('Publishing migrations...');
         Artisan::call('vendor:publish', ['--tag' => 'migrations']);
