@@ -12,7 +12,7 @@ class MenuController extends Controller
     {
         $menuModel = new Menu();
         $menuTree = $menuModel->getMenuTree(); 
-        return view('sort',compact('menuTree'));
+        return view('sidemenu.sort',compact('menuTree'));
     }
 
     public function changeSideMenuOrder(Request $request)

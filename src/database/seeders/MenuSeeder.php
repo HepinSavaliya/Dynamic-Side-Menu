@@ -15,7 +15,7 @@ class MenuSeeder extends Seeder
                 'title' => 'Dashboard',
                 'html' => '<i class="fa fa-dashboard"></i>',
                 'menu_id' => 'dashboard',
-                'parent_menu' => null,
+                'parent_menu_id' => null,
                 'order' => 1,
                 'route' => 'dashboard.index',
                 'class' => 'dashboard-class',

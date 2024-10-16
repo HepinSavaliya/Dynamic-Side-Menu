@@ -11,10 +11,13 @@ class Menu extends Model
 
     protected $fillable = [];
     protected $casts = [];
+    protected $table;
 
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);
+
+        $this->table = config('sidemenu.table_name');
 
         // Retrieve required and extra columns from the configuration
         $require_columns = config('sidemenu.menu_columns', []);
